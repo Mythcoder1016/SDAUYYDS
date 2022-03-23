@@ -1,1 +1,5 @@
 @import '~antd/dist/antd.css';
+.container{
+    background-image: url(../public/背景图1.jpg) ;
+    background-size: 100% 100%;
+}
