@@ -19,7 +19,7 @@ module.exports = {
       host : '81.70.9.154',
       port : '22',
       ref  : 'origin/master',
-      repo : 'https://github.com/Mythcoder1016/SDAUYYDS.git',
+      repo : 'git@github.com:Mythcoder1016/SDAUYYDS.git',
       path : '/www/blog/production',
       'pre-deploy-local': '',
       'pre-deploy': 'git fetch --all',
