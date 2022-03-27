@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import './App.css';
-
+import mp4 from "./assets/whalefall.mp4"
 
 
 class App extends Component{
@@ -23,7 +23,10 @@ class App extends Component{
 
     render() {
         return (
-            <div className="container" style={{ height: this.state.clientHeight }}></div>
+            <>
+                <video src={mp4} loop className='' autoPlay muted/>
+                <div className="container" style={{ height: this.state.clientHeight }}></div>
+            </>
         )
     }
 }
