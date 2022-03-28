@@ -20,7 +20,7 @@ module.exports = {
       port : '22',
       ref  : 'origin/master',
       repo : 'git@github.com:Mythcoder1016/SDAUYYDS.git',
-      path : '/www/blog/production',
+      path : '/root/www/blog',
       'pre-deploy-local': '',
       'pre-deploy': 'git fetch --all',
       'post-deploy' : 'npm install --registry=https://registry.npm.taobao.org && npm run build && pm2 reload ecosystem.config.js --env production',
