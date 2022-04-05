@@ -3,19 +3,8 @@
 body{
     margin:0;
 }
-video{
-    object-fit: fill;
-    position: absolute;
-    left: 0;
-    top: 0;
-    min-height: 661px;
-    width: 100%;
-    height: 100vh;
-    z-index: -100;
-    -webkit-filter: grayscale(20%);
-}
 
-.containWrap{
+.container{
     width: 100%;
     height: 100%;
 }
